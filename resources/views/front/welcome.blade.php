@@ -35,7 +35,7 @@
                                         </span>
                                     </div>
                                     <div class="profile-extra">
-                                        {{ $date }}.
+                                        {{ $date }}. df
                                     </div>
                                 </div>
 
