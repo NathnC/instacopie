@@ -7,8 +7,6 @@
 
 @include('front.layouts.mast')
 
-
-
 <div class="container">
 
 
@@ -35,7 +33,7 @@
                                         </span>
                                     </div>
                                     <div class="profile-extra">
-                                        {{ $date }}. df
+                                        {{ $date }}.
                                     </div>
                                 </div>
 

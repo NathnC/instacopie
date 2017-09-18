@@ -11,7 +11,10 @@
 |
 */
 
-Route::get('/', 'PostController@index');
+Route::get('/', 'PostController@index')->name('home');
+Route::get('/login', 'FrontController@login')->name('login');
 
 
-Route::get('/login', 'Auth\LoginController@index');
+Route::group(['middleware' => 'App\Http\Middleware\LoginMiddleware'], function() {
+    Route::post('/login', 'Auth\LoginController@store');
+});
