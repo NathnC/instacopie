@@ -11,8 +11,12 @@
 |
 */
 
-Route::get('/', 'FrontController@index')->name('home');
 Route::get('/login', 'FrontController@login')->name('login');
+
+
+Route::group(['middleware' => 'App\Http\Middleware\LandingMiddleware'], function() {
+    Route::get('/', 'FrontController@index')->name('home');
+});
 
 
 Route::group(['middleware' => 'App\Http\Middleware\LoginMiddleware'], function() {

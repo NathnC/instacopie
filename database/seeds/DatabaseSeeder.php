@@ -9,6 +9,7 @@ class DatabaseSeeder extends Seeder
      */
     protected $truncate = [
         'users',
+        'comments',
     ];
 
 
@@ -17,6 +18,7 @@ class DatabaseSeeder extends Seeder
      */
     protected $seeders = [
         UsersTableSeeder::class,
+        CommentsTableSeeder::class,
     ];
 
 

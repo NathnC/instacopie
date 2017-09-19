@@ -6,7 +6,10 @@
                             <div class="col-md-12 comment-top">
                                 <div class="col-md-1 pl-0 pr-0">
                                     <span class="pr-5">
-                                        <img class="img-circle profile-img" src="https://www.betterbrandagency.com/wp-content/uploads/2017/05/nathan_connor-300x300.jpg">
+                                        <?php
+                                            $imgurl = 'https://www.gravatar.com/avatar/' . md5($key->user->name) . 'jpg?s=200&d=identicon';
+                                            echo "<img class='img-circle profile-img' src='{$imgurl}'>";
+                                        ?>
                                     </span>
                                 </div>
                                 <div class="col-md-10 pl-0">
@@ -43,7 +46,8 @@
                             </div>
                             <div class="col-md-12 comment-bottom pl-8">
                                 <div class="col-md-6 pl-0">
-                                    {{ $key->title }}
+                                    <b>{{ $key->title }}</b><hr>
+                                    {{ $key->comment }}
                                 </div>
                                 <div class="col-md-6  text-right">
                                     <small>{{ $key->created_at }}</small>
