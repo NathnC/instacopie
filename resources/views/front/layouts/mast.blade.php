@@ -28,7 +28,7 @@
                             <span>
                                 <img class="img-circle profile-img-s" src="https://www.betterbrandagency.com/wp-content/uploads/2017/05/nathan_connor-300x300.jpg">
                             </span>
-                            {{  }}
+                            {{ Auth()->user()->name }}
                             <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
