@@ -16,10 +16,10 @@
                 <div class="infinite-scroll">
                     <div class="post-container container-fluid mb-25 blue-border">
                         <div class="col-md-12 comment-top">
-                            <div class="col-md-2 pl-0 pr-0">
+                            <div class="col-md-2 pl-0 ">
                                 <i class="fa fa-4x fa-hand-o-right text-primary pt-5 pb-5 pl-15"></i>
                             </div>
-                            <div class="col-md-10 pl-0">
+                            <div class="col-md-9 pl-0">
                                 <div class="profile-desc">
                                     <a class="profile-link">
                                         Hey {{ Auth()->user()->name }}!
@@ -30,8 +30,9 @@
                                         We've added a few new things to your feed, take a look!</p>
                                 </div>
                             </div>
-
-
+                            <div class="col-md-1 text-right">
+                                <i class="fa fa-times"></i>
+                            </div>
                         </div>
                         <div class="blur"></div>
                     </div>
