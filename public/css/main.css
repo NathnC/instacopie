@@ -157,10 +157,15 @@ body {
 
 
 .navbar {
-    border-top: 3px solid #F48024;
+    border-top: none;
     border-left: none;
     border-right: none;
     border-radius: 0;
     padding: 0;
     margin: 0;
 }
+
+.navbar-default {
+    background-color: #FFFFFF;
+}
+
