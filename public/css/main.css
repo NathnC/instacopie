@@ -127,7 +127,7 @@ body {
 ::-webkit-scrollbar-thumb:vertical {
     /* This is the EXACT color of Mac OS scrollbars.
        Yes, I pulled out digital color meter */
-    background: rgba(0,0,0,0.5);
+    background: #365899;
     -webkit-border-radius: 100px;
     background-clip: padding-box;
     border: 2px solid rgba(0, 0, 0, 0);
