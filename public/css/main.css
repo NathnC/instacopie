@@ -134,7 +134,7 @@ body {
     min-height: 10px; /*Prevent it from getting too small */
 }
 ::-webkit-scrollbar-thumb:vertical:active {
-    background: rgba(0,0,0,0.61); /* Some darker color when you click it */
+    background: #365899; /* Some darker color when you click it */
     -webkit-border-radius: 100px;
 }
 
