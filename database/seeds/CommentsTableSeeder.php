@@ -6,6 +6,8 @@ use Faker\Factory as Faker;
 
 class CommentsTableSeeder extends Seeder
 {
+
+    
     /**
      * Run the database seeds.
      *
