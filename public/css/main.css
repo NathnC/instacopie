@@ -97,11 +97,29 @@ body {
 
 
 
+.search-box {
+    border: 1px solid #3b5998;
+    border-radius: 3px;
+    box-sizing: border-box;
+    height: 30px;
+    min-width: 160px;
+}
+
+.search-button {
+    border: 1px solid #3b5998;
+    border-radius: 3px;
+    box-sizing: border-box;
+    height: 30px;
+}
 
 
 
-
-
+.navbar-form .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+    width: 400px;
+}
 
 
 
