@@ -7,7 +7,10 @@ use Faker\Factory as Faker;
 class CommentsTableSeeder extends Seeder
 {
 
-    
+
+
+
+git config --global user.email "john@doe.org"
     /**
      * Run the database seeds.
      *
