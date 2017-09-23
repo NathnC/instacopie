@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8552f01a-395c-4ebb-9f0f-e99b0c8a5492" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/main.css" afterPath="$PROJECT_DIR$/public/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/front/layouts/mast.blade.php" afterPath="$PROJECT_DIR$/resources/views/front/layouts/mast.blade.php" />
-    </list>
+    <list default="true" id="8552f01a-395c-4ebb-9f0f-e99b0c8a5492" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -173,10 +170,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-101" />
-    <option name="y" value="120" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1137" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -413,15 +410,15 @@
       <workItem from="1506030463050" duration="1286000" />
       <workItem from="1506097399328" duration="7000" />
       <workItem from="1506097829493" duration="1895000" />
-      <workItem from="1506115055394" duration="1656000" />
+      <workItem from="1506115055394" duration="2255000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18552000" />
+    <option name="totallyTimeSpent" value="19151000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-101" y="120" width="1936" height="1137" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17708333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
