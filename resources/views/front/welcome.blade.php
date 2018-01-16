@@ -38,6 +38,8 @@
                     </div>
 
                     @include('front.posts.posts')
+
+
                 </div>
             @endif
 
@@ -51,6 +53,10 @@
 
 
 @include('front.includes.scripts')
+
+<script>
+    var myLazyLoad = new LazyLoad();
+</script>
 
 <script>
     $(function () {

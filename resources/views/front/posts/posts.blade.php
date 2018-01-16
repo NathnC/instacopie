@@ -6,10 +6,7 @@
                             <div class="col-md-12 comment-top">
                                 <div class="col-md-1 pl-0 pr-0">
                                     <span class="pr-5">
-                                        <?php
-                                            $imgurl = 'https://www.gravatar.com/avatar/' . md5($key->user->name) . 'jpg?s=200&d=identicon';
-                                            echo "<img class='img-circle profile-img' src='{$imgurl}'>";
-                                        ?>
+                                       <img class='img-circle profile-img' src='{{ $key->user->avatar_src }}'>
                                     </span>
                                 </div>
                                 <div class="col-md-10 pl-0">
@@ -30,10 +27,7 @@
 
 
                             </div>
-                            <?php
-                                $url = 'http://lorempixel.com/1920/1080/city?rmmz' . '=' . rand(0, 999);
-                                echo "<div class='square' style='background-image: url({$url})'>";
-                            ?>
+                                <div class="square" style="background-image: url({{ $key->src }}); background-size: cover;">
                                 <div class="blur"></div>
                                 <div class="col-md-12 action-buttons">
                                     <span>

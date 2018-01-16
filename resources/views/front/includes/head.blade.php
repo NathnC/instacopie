@@ -12,6 +12,8 @@
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/10.4.1/lazyload.min.js"></script>
+
     <link href="css/main.css" rel="stylesheet">
     <link href="css/boilerplate-classes.css" rel="stylesheet">
 
